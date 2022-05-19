@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: grey;
+  }
+  .container{
+    overflow: hidden;
+    background-color: #444;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom-right-radius: 10em;
+    border-bottom-left-radius: 10em;
+    border-bottom: #00f2fa solid;
+    height: 20%;
+
+  }
+  span{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    animation-duration: 5s;
+    animation-name: blink;
+  }
+
+  .home{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+  }
+
+  .home a{
+    color: #fff;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #191919;
+  }
+
+  .home a:hover{
+    background-color: #00f2fa;
+    transition: all 1s ease 0s;
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+    text-transform: uppercase;
+    animation-duration: 5s;
+    animation-name: slideIn;
+  }
+
+ 
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+  }
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.50s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+    background-color: #6dcccf;
+    color: #191919;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 1.00s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+   .box input[type = 'checkbox']{
+    width: 20px;
+    height: 20px;
+    background: #2ecc71;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+  }
+  .loginbox p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+  }
+
+  @keyframes blink {
+    from{
+      margin-left: 100%;
+      width: 300px;
+    }
+    to{
+      margin-left: 0%;
+      width: 300px;
+    }
+  }
+  
+  
